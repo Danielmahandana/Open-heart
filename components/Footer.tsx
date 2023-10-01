@@ -56,7 +56,7 @@ export default function Footer() {
         spacing={4}
         justify={{ base: 'center', md: 'space-between' }}
         align={{ base: 'center', md: 'center' }}>
-        <Text>© 2023 Open Heart. All rights reserved</Text>
+        <Text>© 2023 Thinkr. All rights reserved</Text>
         <Stack direction={'row'} spacing={6}>
           <SocialButton label={'Twitter'} href={'#'}>
             <FaTwitter />
@@ -64,7 +64,7 @@ export default function Footer() {
           <SocialButton label={'YouTube'} href={'#'}>
             <FaYoutube />
           </SocialButton>
-          <SocialButton label={'Instagram'} href={'https://instagram.com/0penh3art1?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%2D%3D'}>
+          <SocialButton label={'Instagram'} href={'https://instagram.com/project_thinkr?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%2D%3D'}>
             <FaInstagram />
           </SocialButton>
         </Stack>

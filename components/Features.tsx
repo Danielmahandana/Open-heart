@@ -54,11 +54,13 @@ export default function SplitWithImage() {
             alignSelf={"flex-start"}
             rounded={"md"}
           >
-            What we do
+            Thinkr is built on blockchain technology, which makes it tamper-proof and secure.
           </Text>
-          <Heading>Our Projects</Heading>
+          <Heading>
+          Thinkr: A platform Where research meets innovation.
+          </Heading>
           <Text color={"gray.500"} fontSize={"lg"}>
-          These projects exemplify our dedication to delivering high-quality, scalable, and secure solutions.
+          Fostering new ideas and new ways of thinking about research
           </Text>
           <Stack
             spacing={4}
@@ -73,19 +75,19 @@ export default function SplitWithImage() {
                 <Icon as={IoAnalyticsSharp} color={"yellow.500"} w={5} h={5} />
               }
               iconBg={useColorModeValue("yellow.100", "yellow.900")}
-              text={"Biowear:Deep Learning diagnosis"}
+              text={"Share your research with the world and reach a wider audience."}
             />
             <Feature
               icon={<Icon as={IoLogoBitcoin} color={"green.500"} w={5} h={5} />}
               iconBg={useColorModeValue("green.100", "green.900")}
-              text={"Glass Heart:Blockchain Technology"}
+              text={"Tokenization to create a new way for researchers to be rewarded on platform."}
             />
             <Feature
               icon={
                 <Icon as={IoSearchSharp} color={"purple.500"} w={5} h={5} />
               }
               iconBg={useColorModeValue("purple.100", "purple.900")}
-              text={"Thinkr:Empowering Research Work"}
+              text={"Thinkr uses machine learning to power a number of features"}
             />
           </Stack>
         </Stack>

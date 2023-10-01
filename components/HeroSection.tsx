@@ -35,15 +35,14 @@ export default function CallToActionWithAnnotation() {
             fontSize={{ base: "2xl", sm: "4xl", md: "6xl" }}
             lineHeight={"110%"}
           >
-            Open Heart<br />
+            Thinkr<br />
             <Text as={"span"} color={"green.400"}>
-              projects
+            Powered by the open mind
             </Text>
           </Heading>
           <Text color={"gray.500"}>
-          At Open-Heart-projects, we are a startup technology company at the forefront of innovation in the blockchain and Machine Learning (ML) domains.
-           We strive to create cutting-edge solutions that address complex challenges and drive real-world impact.
-            Our team is committed to pushing the boundaries of technology to shape a better future.
+          Share your research with the world, collaborate with other researchers,
+           and get feedback on your work. The future of research is here.
           </Text>
           <Stack
             direction={"column"}
@@ -53,20 +52,7 @@ export default function CallToActionWithAnnotation() {
             position={"relative"}
           >
            
-            <Button variant={"link"} colorScheme={"blue"} size={"sm"}>
-              Learn more
-            </Button>
-            <Box>
-              <Icon
-                as={Arrow}
-                color={useColorModeValue("gray.800", "gray.300")}
-                w={71}
-                position={"absolute"}
-                right={-71}
-                top={"10px"}
-              />
-              
-            </Box>
+         
           </Stack>
         </Stack>
       </Container>

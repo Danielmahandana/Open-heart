@@ -103,27 +103,26 @@ export default function Testimonials() {
     <Box bg={useColorModeValue('gray.100', 'gray.700')}>
       <Container maxW={'7xl'} py={16} as={Stack} spacing={12}>
         <Stack spacing={0} align={'center'}>
-          <Heading>Our Project Portfolio</Heading>
-          <Text>We firmly believe that technology can be a powerful force for positive change, and we are dedicated to using our expertise to create a sustainable and thriving future for generations to come. Together, with our partners and clients, we are determined to contribute to the sustainability of the Earth and build a better world for all.</Text>
+          <Heading>Our Vision</Heading>
+          <Text>Our vision is to create a decentralized research platform that is used by researchers all over the world. We want Thinkr to be a platform where researchers can share their work, collaborate with others, and get feedback on their research. We also want Thinkr to be a platform where researchers can be rewarded for their contributions to the scientific community.</Text>
         </Stack>
         <Stack
           direction={{ base: 'column', md: 'row' }}
           spacing={{ base: 10, md: 4, lg: 10 }}>
           <Testimonial>
             <TestimonialContent>
-              <TestimonialHeading>Glass Heart</TestimonialHeading>
+              <TestimonialHeading>Tokenization</TestimonialHeading>
               <TestimonialText>
-              Our blockchain projects focus on decentralization, transparency, and immutability. We build decentralized applications (dApps) that enhance security and empower users with full control over their data. Whether its supply chain management, digital identity, financial services, or decentralized finance (DeFi),
-               our blockchain initiatives are poised to redefine industries. providing a Donations Platform.
+              : Thinkr is using tokenization to create a new way for researchers to be rewarded for their contributions to the platform. This could include things like rewards for publishing research papers, participating in peer review, and contributing to the development of the platform.
               </TestimonialText>
             </TestimonialContent>
             
           </Testimonial>
           <Testimonial>
             <TestimonialContent>
-              <TestimonialHeading>BioWear technologies</TestimonialHeading>
+              <TestimonialHeading>A peer review system</TestimonialHeading>
               <TestimonialText>
-              We envision a future where ML-driven medical diagnosis becomes an integral part of healthcare, empowering clinicians with advanced tools to provide personalized and efficient care. By combining the expertise of healthcare professionals with the capabilities of ML algorithms, we aim to establish a new standard of precision and speed in medical diagnostics.
+              peer review system allows researchers to get feedback on their work from other researchers. This can help researchers to improve their research and make it more impactful.
               </TestimonialText>
             </TestimonialContent>
             
@@ -131,10 +130,10 @@ export default function Testimonials() {
           <Testimonial>
             <TestimonialContent>
               <TestimonialHeading>
-                Thinkr:Empowering Research Collaboration!
+              Machine learning
           </TestimonialHeading>
               <TestimonialText>
-              Unlock the full potential of collaboration and revolutionize the way researchers work with Thinkr – the ultimate platform designed to bring scholars together, facilitating seamless sharing and collaboration on groundbreaking research. Say goodbye to isolated research efforts and embrace a world of connected intellects, where discoveries are amplified through collective knowledge.
+              Thinkr uses machine learning to power a number of features, such as the ability to recommend relevant research papers, identify trends in research, and generate summaries of research papers. This helps researchers to find the information they need more quickly and easily.
               </TestimonialText>
             </TestimonialContent>
             
